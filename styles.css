@@ -15,7 +15,7 @@
 
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
-  background: var(--negro);
+  background: linear-gradient(180deg, var(--negro) 40%, #ffe066 170%);
   color: var(--beige);
   min-height: 100vh;
   padding-top: 80px;
@@ -61,7 +61,7 @@ nav {
 }
 
 .nav-links a:hover {
-  color: var(--beige-oscuro);
+  color: #ffe066;
 }
 
 main {
@@ -87,12 +87,12 @@ main {
 }
 
 .about-avatar img {
-  width: 96px;
-  height: 96px;
-  border-radius: 50%;
-  border: 4px solid var(--beige-oscuro);
+  width: 100%;
+  height: auto;
+  border-radius: 10%;
+  /*border: 4px solid var(--beige-oscuro);*/
   object-fit: cover;
-  box-shadow: 0 2px 12px rgba(24,24,24,0.10);
+  box-shadow: 0 8px 20px rgba(255, 224, 102, 0.3);
 }
 
 .about-content {
@@ -103,8 +103,8 @@ main {
 
 .about-badge {
   display: inline-block;
-  background: #2ecc40;
-  color: #fff;
+  background: #ffe066;
+  color: #181818;
   font-size: 1rem;
   font-weight: 500;
   padding: 0.3rem 1.1rem;
