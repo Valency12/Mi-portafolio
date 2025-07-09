@@ -561,3 +561,39 @@ footer {
     text-align: center;
   }
 } 
+
+/* Estilos para mensajes del formulario */
+.message {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.message .success {
+  background: #d4edda;
+  color: #155724;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #c3e6cb;
+  font-weight: 500;
+}
+
+.message .error {
+  background: #f8d7da;
+  color: #721c24;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #f5c6cb;
+  font-weight: 500;
+}
+
+/* Estilos para botón deshabilitado */
+.contact button:disabled {
+  background: var(--beige-oscuro);
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.contact button:disabled:hover {
+  background: var(--beige-oscuro);
+  transform: none;
+} 

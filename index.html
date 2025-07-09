@@ -33,7 +33,7 @@
             <span class="about-highlight">Me encanta transformar ideas complejas en soluciones funcionales y escalables.</span> Mi curiosidad insaciable y el deseo de construir me han llevado a explorar diversos lenguajes y tecnologías, siempre buscando aprender y aplicar nuevas formas de resolver problemas.
           </p>
           <div class="about-links">
-            <a href="mailto:fercortez120@gmail.com?subject=¡Hola%20Valency!&body=¡Qué%20gusto%20que%20quieras%20conectar!%20😊%20Tu%20mensaje%20es%20muy%20importante%20para%20mí%20y%20ya%20lo%20recibí.%20En%20breve%20me%20comunicaré%20contigo.%20¡Gracias%20por%20tu%20tiempo!%20🙏✨" class="btn about-btn"><span class="icon">✉️</span> Contáctame</a>
+            <a href="#contact" class="btn about-btn"><span class="icon">✉️</span> Contáctame</a>
             <a href="https://www.linkedin.com/in/maria-fernanda-valencia-34062b200/" target="_blank" rel="noopener" class="btn about-btn"><span class="icon">in</span> LinkedIn</a>
             <a href="https://github.com/Valency12" class="btn about-btn" target="_blank" rel="noopener"><span class="icon">🐙</span> GitHub</a>
           </div>
@@ -153,16 +153,62 @@
       </section>
     <section id="contact" class="contact">
       <h2>Contacto</h2>
-      <form>
-        <input type="text" placeholder="Nombre" required>
-        <input type="email" placeholder="Correo electrónico" required>
-        <textarea placeholder="Mensaje" required></textarea>
-        <button type="submit">Enviar</button>
+      <form id="contactForm">
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+        <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
+        <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea>
+        <button type="submit" id="submitBtn">Enviar</button>
       </form>
+      <div id="message" class="message"></div>
     </section>
   </main>
   <footer>
     <p>&copy; 2024 [Tu Nombre]. Todos los derechos reservados.</p>
   </footer>
+
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', async function(e) {
+      e.preventDefault();
+      
+      const submitBtn = document.getElementById('submitBtn');
+      const messageDiv = document.getElementById('message');
+      
+      // Obtener datos del formulario
+      const formData = {
+        nombre: document.getElementById('nombre').value,
+        email: document.getElementById('email').value,
+        mensaje: document.getElementById('mensaje').value
+      };
+      
+      // Cambiar estado del botón
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Enviando...';
+      messageDiv.innerHTML = '';
+      
+      try {
+        const response = await fetch('/api/contact', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(formData)
+        });
+        
+        const result = await response.json();
+        
+        if (result.success) {
+          messageDiv.innerHTML = `<div class="success">${result.message}</div>`;
+          document.getElementById('contactForm').reset();
+        } else {
+          messageDiv.innerHTML = `<div class="error">${result.message}</div>`;
+        }
+      } catch (error) {
+        messageDiv.innerHTML = '<div class="error">Error de conexión. Por favor, intenta nuevamente.</div>';
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Enviar';
+      }
+    });
+  </script>
 </body>
 </html>
