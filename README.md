@@ -1,113 +1,68 @@
-# Portfolio Personal - Valency
+## Portafolio de Valency (Maria Fernanda Valencia)
+# 👋 ¡Hola! Soy Valency
+Estudiante apasionada de # Ingeniería en Desarrollo de Software en San Luis Potosí.
+# Enfoque: Desarrollo web, ciberseguridad e inteligencia artificial.
 
-Portfolio personal con formulario de contacto funcional que envía emails automáticamente.
+##🔗 Enlace al portafolio: https://valency12.github.io (actualizar con tu URL real)
 
-## 🚀 Características
+# 👩‍💻 Sobre Mí
+# Maria Fernanda Valencia (Valency para los amigos)
+# 🎓 Estudiante de Ingeniería en Desarrollo de Software
+# 💡 Transformo problemas en soluciones escalables
+# 🚀 Lidero equipos en proyectos universitarios/personales
+# 🛡️ Apasionada por ciberseguridad + IA
+# 📈 Autodidacta y en constante aprendizaje
 
-- Diseño responsivo y moderno
-- Formulario de contacto funcional
-- Envío automático de emails
-- Secciones: Experiencia, Proyectos, Herramientas, Sobre mí
-- Enlaces a LinkedIn y GitHub
+## 🛠️ Tech Stack
+# 💻 Desarrollo Web
+#HTML5 #CSS3 #JavaScript #React #Nodejs
 
-## 📋 Requisitos Previos
+# 📊 Ciencia de Datos & IA
+#Python #Pandas #MachineLearning #SHAP
 
-- Node.js (versión 14 o superior)
-- npm o yarn
-- Cuenta de Gmail con contraseña de aplicación
+## 🔐 Ciberseguridad
+#SeguridadInformática #EthicalHacking #IAparaCiberseguridad
 
-## 🔧 Instalación
+## ⚙️ Otras Herramientas
+#Git #GitHub #SQL #Figma #Linux
 
-1. **Clona el repositorio:**
-   ```bash
-   git clone <tu-repositorio>
-   cd Mi-portafolio
-   ```
+## 🚀 Proyectos Destacados
+# 1. The Fuentes Corporation Web
+#LandingPage #ResponsiveDesign
+✅ Tecnologías: HTML, CSS, JS
+🔗 Demo: Ver Online
 
-2. **Instala las dependencias:**
-   ```bash
-   npm install
-   ```
+## 2. Phishing Catch
+#MachineLearning #CyberSecurity
+✅ Detección de URLs maliciosas en tiempo real
+🔗 Código: GitHub Repo
 
-3. **Configura las credenciales de email:**
-   
-   Edita el archivo `config.env` y reemplaza:
-   ```
-   EMAIL_USER=fercortez120@gmail.com
-   EMAIL_PASS=tu_contraseña_de_aplicacion
-   ```
+##📌 Experiencia
+# 💻 Desarrollo Web
+Creación de sitios #responsive y optimizados
 
-   **⚠️ Importante:** Para Gmail, necesitas usar una "Contraseña de aplicación":
-   
-   - Ve a tu cuenta de Google
-   - Seguridad → Verificación en 2 pasos (actívala si no está activa)
-   - Contraseñas de aplicación → Genera una nueva
-   - Usa esa contraseña en `EMAIL_PASS`
+Enfoque en #UX y performance
 
-4. **Inicia el servidor:**
-   ```bash
-   npm start
-   ```
+## 📈 Ciencia de Datos
+Análisis con #Python y visualización de datos
 
-5. **Abre tu navegador:**
-   ```
-   http://localhost:3000
-   ```
+Modelos predictivos con #ML
 
-## 📧 Configuración del Email
+## 🤖 Ciberseguridad
+Detección de amenazas con #IA
+Investigación en seguridad ofensiva/defensiva
 
-### Para Gmail:
-1. Activa la verificación en 2 pasos
-2. Genera una contraseña de aplicación
-3. Usa esa contraseña en `config.env`
+## 📩 Contacto
+# ¿Colaboramos? ¡Hablemos!
+📧 Email: fercortez120@gmail.com
+🔗 LinkedIn: /maria-fernanda-valencia
+🐙 GitHub: @Valency12
 
-### Para otros proveedores:
-Cambia `EMAIL_SERVICE` en `config.env`:
-- Outlook: `outlook`
-- Yahoo: `yahoo`
-- Otros: consulta la documentación de Nodemailer
+# ✨ ¿Por qué trabajar conmigo?
+✅ # Soluciones creativas a problemas complejos
+✅ # Compromiso con resultados de calidad
+✅ # Versatilidad técnica (Full-Stack + IA + Security)
+✅ # Comunicación clara y trabajo en equipo
 
-## 🛠️ Scripts Disponibles
+# 🌟 "Código, seguridad y datos... transformando ideas en realidad."
 
-- `npm start` - Inicia el servidor en producción
-- `npm run dev` - Inicia el servidor en modo desarrollo (con nodemon)
-
-## 📁 Estructura del Proyecto
-
-```
-Mi-portafolio/
-├── index.html          # Página principal
-├── styles.css          # Estilos CSS
-├── server.js           # Servidor Node.js
-├── package.json        # Dependencias
-├── config.env          # Configuración (crear)
-├── imagenes/           # Imágenes del portfolio
-└── README.md           # Este archivo
-```
-
-## 🔒 Seguridad
-
-- El archivo `config.env` contiene información sensible
-- Agrégalo a `.gitignore` para no subirlo al repositorio
-- Nunca compartas tus credenciales de email
-
-## 🚀 Despliegue
-
-### Opciones recomendadas:
-- **Vercel** (gratis)
-- **Netlify** (gratis)
-- **Heroku** (gratis con limitaciones)
-- **Railway** (gratis)
-
-### Variables de entorno en producción:
-Configura las mismas variables que están en `config.env` en tu plataforma de hosting.
-
-## 📞 Contacto
-
-- **Email:** fercortez120@gmail.com
-- **LinkedIn:** [Maria Fernanda Valencia](https://www.linkedin.com/in/maria-fernanda-valencia-34062b200/)
-- **GitHub:** [Valency12](https://github.com/Valency12)
-
----
-
-¡Gracias por visitar mi portfolio! 😊
