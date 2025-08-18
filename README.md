@@ -20,7 +20,6 @@ Me encanta transformar ideas en soluciones funcionales, escalables y con impacto
 - **Phishing Catch** → Detector avanzado de phishing con API de VirusTotal, ML y explicabilidad con SHAP.  
 
 ## 📫 Contáctame  
-- LinkedIn: [Tu perfil aquí]  
-- GitHub: [Tu perfil aquí]  
+- LinkedIn: https://www.linkedin.com/in/maria-fernanda-valencia-34062b200/
 
 ---
