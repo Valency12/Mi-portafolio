@@ -87,7 +87,7 @@ main {
 }
 
 .about-avatar img {
-  width: 100%;
+  width: 55vh;
   height: auto;
   border-radius: 10%;
   object-fit: cover;
