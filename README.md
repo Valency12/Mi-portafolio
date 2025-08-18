@@ -1,68 +1,26 @@
-## Portafolio de Valency (Maria Fernanda Valencia)
-# 👋 ¡Hola! Soy Valency
-Estudiante apasionada de # Ingeniería en Desarrollo de Software en San Luis Potosí.
-# Enfoque: Desarrollo web, ciberseguridad e inteligencia artificial.
+# Portafolio - Maria Fernanda Valencia (Valency)
 
-##🔗 Enlace al portafolio: https://valency12.github.io (actualizar con tu URL real)
+## 👋 Sobre mí  
+¡Hola! Soy **Maria Fernanda Valencia**, pero puedes llamarme **Valency**.  
+Soy estudiante de **Ingeniería en Desarrollo de Software** en San Luis Potosí, apasionada por el **desarrollo web, la ciberseguridad y la inteligencia artificial**.  
+Me encanta transformar ideas en soluciones funcionales, escalables y con impacto real.  
 
-# 👩‍💻 Sobre Mí
-# Maria Fernanda Valencia (Valency para los amigos)
-# 🎓 Estudiante de Ingeniería en Desarrollo de Software
-# 💡 Transformo problemas en soluciones escalables
-# 🚀 Lidero equipos en proyectos universitarios/personales
-# 🛡️ Apasionada por ciberseguridad + IA
-# 📈 Autodidacta y en constante aprendizaje
+## 🚀 Experiencia y Áreas de Interés  
+- **Desarrollo Web:** creación de sitios modernos, responsivos y centrados en el usuario.  
+- **Ciencia de Datos:** desde la adquisición hasta la visualización y el análisis de información.  
+- **Ciberseguridad & IA:** proyectos que combinan *Machine Learning* con seguridad informática.  
 
-## 🛠️ Tech Stack
-# 💻 Desarrollo Web
-#HTML5 #CSS3 #JavaScript #React #Nodejs
+## 💻 Tecnologías y Herramientas  
+- Frontend: **HTML5, CSS3, JavaScript, React**  
+- Backend: **Node.js, SQL, Python**  
+- Otros: **Git & GitHub, Linux, Figma**  
 
-# 📊 Ciencia de Datos & IA
-#Python #Pandas #MachineLearning #SHAP
+## 📂 Proyectos Destacados  
+- **The Fuentes Corporation Web** → Sitio web responsivo para una empresa constructora.  
+- **Phishing Catch** → Detector avanzado de phishing con API de VirusTotal, ML y explicabilidad con SHAP.  
 
-## 🔐 Ciberseguridad
-#SeguridadInformática #EthicalHacking #IAparaCiberseguridad
+## 📫 Contáctame  
+- LinkedIn: [Tu perfil aquí]  
+- GitHub: [Tu perfil aquí]  
 
-## ⚙️ Otras Herramientas
-#Git #GitHub #SQL #Figma #Linux
-
-## 🚀 Proyectos Destacados
-# 1. The Fuentes Corporation Web
-#LandingPage #ResponsiveDesign
-✅ Tecnologías: HTML, CSS, JS
-🔗 Demo: Ver Online
-
-## 2. Phishing Catch
-#MachineLearning #CyberSecurity
-✅ Detección de URLs maliciosas en tiempo real
-🔗 Código: GitHub Repo
-
-##📌 Experiencia
-# 💻 Desarrollo Web
-Creación de sitios #responsive y optimizados
-
-Enfoque en #UX y performance
-
-## 📈 Ciencia de Datos
-Análisis con #Python y visualización de datos
-
-Modelos predictivos con #ML
-
-## 🤖 Ciberseguridad
-Detección de amenazas con #IA
-Investigación en seguridad ofensiva/defensiva
-
-## 📩 Contacto
-# ¿Colaboramos? ¡Hablemos!
-📧 Email: fercortez120@gmail.com
-🔗 LinkedIn: /maria-fernanda-valencia
-🐙 GitHub: @Valency12
-
-# ✨ ¿Por qué trabajar conmigo?
-✅ # Soluciones creativas a problemas complejos
-✅ # Compromiso con resultados de calidad
-✅ # Versatilidad técnica (Full-Stack + IA + Security)
-✅ # Comunicación clara y trabajo en equipo
-
-# 🌟 "Código, seguridad y datos... transformando ideas en realidad."
-
+---
